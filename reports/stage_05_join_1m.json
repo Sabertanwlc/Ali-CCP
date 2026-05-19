@@ -1,0 +1,11 @@
+{
+  "split": "train",
+  "skeleton_rows": 1000000,
+  "required_common_ids": 18827,
+  "matched_common_ids": 18827,
+  "scanned_common_rows": 730584,
+  "joined_rows": 1000000,
+  "missing_common": 0,
+  "join_coverage": 1.0,
+  "output": "D:\\Ali-CCP\\processed\\joined_stage05_1m\\joined_train.csv"
+}

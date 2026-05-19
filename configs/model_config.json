@@ -1,0 +1,25 @@
+{
+  "lr_hashing": {
+    "hash_size": 1048576,
+    "learning_rate": 0.05,
+    "l2": 0.000001,
+    "epochs": 1
+  },
+  "deepfm": {
+    "num_embeddings": 1048576,
+    "embedding_dim": 16,
+    "hidden_units": [256, 128, 64],
+    "dropout": 0.2
+  },
+  "esmm_dcnv2": {
+    "num_embeddings": 1048576,
+    "embedding_dim": 16,
+    "cross_layers": 3,
+    "low_rank": 64,
+    "hidden_units": [256, 128, 64],
+    "dropout": 0.2,
+    "ctr_loss_weight": 1.0,
+    "ctcvr_loss_weight": 1.0
+  }
+}
+

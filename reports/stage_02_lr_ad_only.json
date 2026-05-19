@@ -1,0 +1,14 @@
+{
+  "model": "lr_hashing",
+  "task": "ctr",
+  "feature_source": "ad",
+  "split": "train",
+  "rows": 1000,
+  "parse_errors": 0,
+  "hash_size": 65536,
+  "learning_rate": 0.05,
+  "l2": 1e-06,
+  "click_rate": 0.032,
+  "auc": 0.504584194214876,
+  "log_loss": 0.17828205220165785
+}

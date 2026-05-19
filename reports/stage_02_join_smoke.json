@@ -1,0 +1,16 @@
+{
+  "split": "train",
+  "bucket_count": 16,
+  "max_skeleton_lines": 1000,
+  "max_common_lines": 10000,
+  "joined_path": "D:\\Ali-CCP\\processed\\joined_stage02_smoke\\joined_train.csv",
+  "skeleton_rows": 1000,
+  "skeleton_split_errors": 0,
+  "common_rows": 10000,
+  "common_split_errors": 0,
+  "common_rows_loaded": 10000,
+  "skeleton_rows_seen": 1000,
+  "joined_rows": 0,
+  "missing_common": 1000,
+  "join_coverage": 0.0
+}

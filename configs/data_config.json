@@ -1,0 +1,20 @@
+{
+  "data_root": "D:\\Ali-CCP",
+  "train": {
+    "sample_skeleton": "sample_train\\sample_skeleton_train.csv",
+    "common_features": "sample_train\\common_features_train.csv"
+  },
+  "test": {
+    "sample_skeleton": "sample_test\\sample_skeleton_test.csv",
+    "common_features": "sample_test\\common_features_test.csv"
+  },
+  "processed_dir": "processed",
+  "reports_dir": "reports",
+  "models_dir": "models",
+  "feature_separators": {
+    "feature": "\\u0001",
+    "field_feature": "\\u0002",
+    "feature_value": "\\u0003"
+  }
+}
+

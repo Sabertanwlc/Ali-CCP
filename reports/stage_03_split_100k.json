@@ -1,0 +1,18 @@
+{
+  "rows": 100000,
+  "parse_errors": 0,
+  "train_rows": 79878,
+  "valid_rows": 20122,
+  "train_clicks": 3566,
+  "valid_clicks": 845,
+  "train_conversions": 36,
+  "valid_conversions": 8,
+  "valid_ratio": 0.2,
+  "train_click_rate": 0.044643080698064545,
+  "valid_click_rate": 0.04199383759069675,
+  "train_conversion_rate": 0.0004506872981296477,
+  "valid_conversion_rate": 0.00039757479375807575,
+  "input": "D:\\Ali-CCP\\processed\\joined_stage03_100k\\joined_train.csv",
+  "train_output": "D:\\Ali-CCP\\processed\\joined_stage03_100k\\train.csv",
+  "valid_output": "D:\\Ali-CCP\\processed\\joined_stage03_100k\\valid.csv"
+}

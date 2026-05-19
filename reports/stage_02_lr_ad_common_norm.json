@@ -1,0 +1,16 @@
+{
+  "model": "lr_hashing",
+  "task": "ctr",
+  "feature_source": "joined",
+  "split": "train",
+  "rows": 1000,
+  "parse_errors": 0,
+  "hash_size": 65536,
+  "learning_rate": 0.05,
+  "l2": 1e-06,
+  "value_clip": 10.0,
+  "normalize_l2": true,
+  "click_rate": 0.032,
+  "auc": 0.5834194214876033,
+  "log_loss": 0.1666553300170979
+}

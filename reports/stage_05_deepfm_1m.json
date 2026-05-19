@@ -1,0 +1,114 @@
+{
+  "model": "deepfm",
+  "feature_source": "joined",
+  "split": "train",
+  "rows": 1599134,
+  "epochs": 2,
+  "hash_size": 1048576,
+  "embedding_dim": 16,
+  "avg_loss": 0.19184812708866728,
+  "device": "cuda",
+  "ctr_loss_weight": 1.0,
+  "ctcvr_loss_weight": 1.0,
+  "ctcvr_positive_weight": 1.0,
+  "valid_rows": 200433,
+  "valid_clicks": 9304,
+  "valid_conversions": 64,
+  "valid_ctcvr_positives": 62,
+  "valid_click_rate": 0.04641950177864922,
+  "valid_conversion_rate": 0.00031930869667170576,
+  "valid_ctr_positives": 9304,
+  "valid_ctr_positive_rate": 0.04641950177864922,
+  "valid_ctr_auc": 0.619959138850489,
+  "valid_ctr_pr_auc": 0.07466519158126585,
+  "valid_ctr_log_loss": 0.18733999290419145,
+  "valid_ctr_rate_at_0.01": 0.13323353293413173,
+  "valid_ctr_lift_at_0.01": 2.8702060088764862,
+  "valid_ctr_rate_at_0.05": 0.1016864584372817,
+  "valid_ctr_lift_at_0.05": 2.190597799221806,
+  "valid_ctr_rate_at_0.1": 0.08796088409918675,
+  "valid_ctr_lift_at_0.1": 1.8949122831741505,
+  "valid_ctr_calibration_bins": [
+    {
+      "bin": 0,
+      "lower": 0.0,
+      "upper": 0.1,
+      "count": 175027,
+      "avg_prediction": 0.04065849023216537,
+      "positive_rate": 0.0410793763247956
+    },
+    {
+      "bin": 1,
+      "lower": 0.1,
+      "upper": 0.2,
+      "count": 25124,
+      "avg_prediction": 0.12469910820028268,
+      "positive_rate": 0.08219232606272886
+    },
+    {
+      "bin": 2,
+      "lower": 0.2,
+      "upper": 0.3,
+      "count": 221,
+      "avg_prediction": 0.2222156989223817,
+      "positive_rate": 0.12217194570135746
+    },
+    {
+      "bin": 3,
+      "lower": 0.3,
+      "upper": 0.4,
+      "count": 61,
+      "avg_prediction": 0.3554609823422354,
+      "positive_rate": 0.36065573770491804
+    },
+    {
+      "bin": 4,
+      "lower": 0.4,
+      "upper": 0.5,
+      "count": 0,
+      "avg_prediction": 0.0,
+      "positive_rate": 0.0
+    },
+    {
+      "bin": 5,
+      "lower": 0.5,
+      "upper": 0.6,
+      "count": 0,
+      "avg_prediction": 0.0,
+      "positive_rate": 0.0
+    },
+    {
+      "bin": 6,
+      "lower": 0.6,
+      "upper": 0.7,
+      "count": 0,
+      "avg_prediction": 0.0,
+      "positive_rate": 0.0
+    },
+    {
+      "bin": 7,
+      "lower": 0.7,
+      "upper": 0.8,
+      "count": 0,
+      "avg_prediction": 0.0,
+      "positive_rate": 0.0
+    },
+    {
+      "bin": 8,
+      "lower": 0.8,
+      "upper": 0.9,
+      "count": 0,
+      "avg_prediction": 0.0,
+      "positive_rate": 0.0
+    },
+    {
+      "bin": 9,
+      "lower": 0.9,
+      "upper": 1.0,
+      "count": 0,
+      "avg_prediction": 0.0,
+      "positive_rate": 0.0
+    }
+  ],
+  "checkpoint_output": "D:\\Ali-CCP\\models\\deepfm_stage05_1m.pt"
+}

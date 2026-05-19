@@ -1,0 +1,18 @@
+{
+  "model": "lr_hashing",
+  "task": "ctr",
+  "feature_source": "joined",
+  "train_path": "D:\\Ali-CCP\\processed\\joined_stage03_100k\\train.csv",
+  "valid_path": "D:\\Ali-CCP\\processed\\joined_stage03_100k\\valid.csv",
+  "train_rows": 79878,
+  "valid_rows": 20122,
+  "train_click_rate": 0.044643080698064545,
+  "valid_click_rate": 0.04199383759069675,
+  "hash_size": 1048576,
+  "learning_rate": 0.05,
+  "l2": 1e-06,
+  "value_clip": 10.0,
+  "normalize_l2": true,
+  "valid_auc": 0.6106959484783197,
+  "valid_log_loss": 0.17216385853866825
+}

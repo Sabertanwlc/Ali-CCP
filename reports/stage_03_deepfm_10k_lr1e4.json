@@ -1,0 +1,16 @@
+{
+  "model": "deepfm",
+  "feature_source": "joined",
+  "split": "train",
+  "rows": 24045,
+  "epochs": 3,
+  "hash_size": 262144,
+  "embedding_dim": 8,
+  "avg_loss": 1.2538339659859816,
+  "device": "cpu",
+  "valid_rows": 1985,
+  "valid_click_rate": 0.04181360201511335,
+  "valid_auc": 0.4702152458414098,
+  "valid_log_loss": 1.1392127245935826,
+  "checkpoint_output": "D:\\Ali-CCP\\models\\deepfm_stage03_10k_lr1e4.pt"
+}

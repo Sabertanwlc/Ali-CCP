@@ -1,0 +1,16 @@
+{
+  "model": "deepfm",
+  "feature_source": "joined",
+  "split": "train",
+  "rows": 24045,
+  "epochs": 3,
+  "hash_size": 262144,
+  "embedding_dim": 16,
+  "avg_loss": 0.37962476028414915,
+  "device": "cuda",
+  "valid_rows": 1985,
+  "valid_click_rate": 0.04181360201511335,
+  "valid_auc": 0.5845717253873538,
+  "valid_log_loss": 0.1783290903598559,
+  "checkpoint_output": "D:\\Ali-CCP\\models\\deepfm_stage03_10k_initfix.pt"
+}

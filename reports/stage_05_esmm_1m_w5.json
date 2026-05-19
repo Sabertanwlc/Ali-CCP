@@ -1,0 +1,301 @@
+{
+  "model": "esmm_dcnv2",
+  "feature_source": "joined",
+  "split": "train",
+  "rows": 1599134,
+  "epochs": 2,
+  "hash_size": 1048576,
+  "embedding_dim": 16,
+  "avg_loss": 0.22303236888971914,
+  "device": "cuda",
+  "ctr_loss_weight": 1.0,
+  "ctcvr_loss_weight": 5.0,
+  "ctcvr_positive_weight": 1.0,
+  "valid_rows": 200433,
+  "valid_clicks": 9304,
+  "valid_conversions": 64,
+  "valid_ctcvr_positives": 62,
+  "valid_click_rate": 0.04641950177864922,
+  "valid_conversion_rate": 0.00031930869667170576,
+  "valid_ctr_positives": 9304,
+  "valid_ctr_positive_rate": 0.04641950177864922,
+  "valid_ctr_auc": 0.619732938774943,
+  "valid_ctr_pr_auc": 0.07518670606737296,
+  "valid_ctr_log_loss": 0.19212963014477455,
+  "valid_ctr_rate_at_0.01": 0.13622754491017963,
+  "valid_ctr_lift_at_0.01": 2.9347050203119127,
+  "valid_ctr_rate_at_0.05": 0.0984931643548548,
+  "valid_ctr_lift_at_0.05": 2.1218057191677357,
+  "valid_ctr_rate_at_0.1": 0.0897071296712069,
+  "valid_ctr_lift_at_0.1": 1.9325310749558269,
+  "valid_ctr_calibration_bins": [
+    {
+      "bin": 0,
+      "lower": 0.0,
+      "upper": 0.1,
+      "count": 152950,
+      "avg_prediction": 0.04228218688070297,
+      "positive_rate": 0.03780320366132723
+    },
+    {
+      "bin": 1,
+      "lower": 0.1,
+      "upper": 0.2,
+      "count": 45177,
+      "avg_prediction": 0.13751190888070805,
+      "positive_rate": 0.0711202603094495
+    },
+    {
+      "bin": 2,
+      "lower": 0.2,
+      "upper": 0.3,
+      "count": 2225,
+      "avg_prediction": 0.21828259704488048,
+      "positive_rate": 0.12943820224719102
+    },
+    {
+      "bin": 3,
+      "lower": 0.3,
+      "upper": 0.4,
+      "count": 0,
+      "avg_prediction": 0.0,
+      "positive_rate": 0.0
+    },
+    {
+      "bin": 4,
+      "lower": 0.4,
+      "upper": 0.5,
+      "count": 81,
+      "avg_prediction": 0.4121438176543624,
+      "positive_rate": 0.25925925925925924
+    },
+    {
+      "bin": 5,
+      "lower": 0.5,
+      "upper": 0.6,
+      "count": 0,
+      "avg_prediction": 0.0,
+      "positive_rate": 0.0
+    },
+    {
+      "bin": 6,
+      "lower": 0.6,
+      "upper": 0.7,
+      "count": 0,
+      "avg_prediction": 0.0,
+      "positive_rate": 0.0
+    },
+    {
+      "bin": 7,
+      "lower": 0.7,
+      "upper": 0.8,
+      "count": 0,
+      "avg_prediction": 0.0,
+      "positive_rate": 0.0
+    },
+    {
+      "bin": 8,
+      "lower": 0.8,
+      "upper": 0.9,
+      "count": 0,
+      "avg_prediction": 0.0,
+      "positive_rate": 0.0
+    },
+    {
+      "bin": 9,
+      "lower": 0.9,
+      "upper": 1.0,
+      "count": 0,
+      "avg_prediction": 0.0,
+      "positive_rate": 0.0
+    }
+  ],
+  "valid_ctcvr_positive_rate": 0.00030933029990071496,
+  "valid_ctcvr_auc": 0.5803745745191058,
+  "valid_ctcvr_pr_auc": 0.0008004655049493125,
+  "valid_ctcvr_log_loss": 0.0036431826250803525,
+  "valid_ctcvr_rate_at_0.01": 0.001996007984031936,
+  "valid_ctcvr_lift_at_0.01": 6.4526752945721455,
+  "valid_ctcvr_rate_at_0.05": 0.0006985330805308851,
+  "valid_ctcvr_lift_at_0.05": 2.2582109827426917,
+  "valid_ctcvr_rate_at_0.1": 0.000598712767549768,
+  "valid_ctcvr_lift_at_0.1": 1.9355128409403655,
+  "valid_ctcvr_calibration_bins": [
+    {
+      "bin": 0,
+      "lower": 0.0,
+      "upper": 0.1,
+      "count": 200433,
+      "avg_prediction": 0.00034453363482990837,
+      "positive_rate": 0.00030933029990071496
+    },
+    {
+      "bin": 1,
+      "lower": 0.1,
+      "upper": 0.2,
+      "count": 0,
+      "avg_prediction": 0.0,
+      "positive_rate": 0.0
+    },
+    {
+      "bin": 2,
+      "lower": 0.2,
+      "upper": 0.3,
+      "count": 0,
+      "avg_prediction": 0.0,
+      "positive_rate": 0.0
+    },
+    {
+      "bin": 3,
+      "lower": 0.3,
+      "upper": 0.4,
+      "count": 0,
+      "avg_prediction": 0.0,
+      "positive_rate": 0.0
+    },
+    {
+      "bin": 4,
+      "lower": 0.4,
+      "upper": 0.5,
+      "count": 0,
+      "avg_prediction": 0.0,
+      "positive_rate": 0.0
+    },
+    {
+      "bin": 5,
+      "lower": 0.5,
+      "upper": 0.6,
+      "count": 0,
+      "avg_prediction": 0.0,
+      "positive_rate": 0.0
+    },
+    {
+      "bin": 6,
+      "lower": 0.6,
+      "upper": 0.7,
+      "count": 0,
+      "avg_prediction": 0.0,
+      "positive_rate": 0.0
+    },
+    {
+      "bin": 7,
+      "lower": 0.7,
+      "upper": 0.8,
+      "count": 0,
+      "avg_prediction": 0.0,
+      "positive_rate": 0.0
+    },
+    {
+      "bin": 8,
+      "lower": 0.8,
+      "upper": 0.9,
+      "count": 0,
+      "avg_prediction": 0.0,
+      "positive_rate": 0.0
+    },
+    {
+      "bin": 9,
+      "lower": 0.9,
+      "upper": 1.0,
+      "count": 0,
+      "avg_prediction": 0.0,
+      "positive_rate": 0.0
+    }
+  ],
+  "valid_clicked_rows": 9304,
+  "valid_clicked_conversions": 62,
+  "valid_cvr_on_clicked_positives": 62,
+  "valid_cvr_on_clicked_positive_rate": 0.0066638005159071366,
+  "valid_cvr_on_clicked_auc": 0.5541497092515933,
+  "valid_cvr_on_clicked_pr_auc": 0.009574561069644584,
+  "valid_cvr_on_clicked_log_loss": 0.05796812019524038,
+  "valid_cvr_on_clicked_rate_at_0.01": 0.03225806451612903,
+  "valid_cvr_on_clicked_lift_at_0.01": 4.840790842872008,
+  "valid_cvr_on_clicked_rate_at_0.05": 0.010752688172043012,
+  "valid_cvr_on_clicked_lift_at_0.05": 1.6135969476240029,
+  "valid_cvr_on_clicked_rate_at_0.1": 0.008602150537634409,
+  "valid_cvr_on_clicked_lift_at_0.1": 1.2908775580992022,
+  "valid_cvr_on_clicked_calibration_bins": [
+    {
+      "bin": 0,
+      "lower": 0.0,
+      "upper": 0.1,
+      "count": 9173,
+      "avg_prediction": 0.003439987570628363,
+      "positive_rate": 0.006431919764526327
+    },
+    {
+      "bin": 1,
+      "lower": 0.1,
+      "upper": 0.2,
+      "count": 59,
+      "avg_prediction": 0.12802041498786312,
+      "positive_rate": 0.01694915254237288
+    },
+    {
+      "bin": 2,
+      "lower": 0.2,
+      "upper": 0.3,
+      "count": 18,
+      "avg_prediction": 0.24353152596288258,
+      "positive_rate": 0.05555555555555555
+    },
+    {
+      "bin": 3,
+      "lower": 0.3,
+      "upper": 0.4,
+      "count": 54,
+      "avg_prediction": 0.35778536840721414,
+      "positive_rate": 0.018518518518518517
+    },
+    {
+      "bin": 4,
+      "lower": 0.4,
+      "upper": 0.5,
+      "count": 0,
+      "avg_prediction": 0.0,
+      "positive_rate": 0.0
+    },
+    {
+      "bin": 5,
+      "lower": 0.5,
+      "upper": 0.6,
+      "count": 0,
+      "avg_prediction": 0.0,
+      "positive_rate": 0.0
+    },
+    {
+      "bin": 6,
+      "lower": 0.6,
+      "upper": 0.7,
+      "count": 0,
+      "avg_prediction": 0.0,
+      "positive_rate": 0.0
+    },
+    {
+      "bin": 7,
+      "lower": 0.7,
+      "upper": 0.8,
+      "count": 0,
+      "avg_prediction": 0.0,
+      "positive_rate": 0.0
+    },
+    {
+      "bin": 8,
+      "lower": 0.8,
+      "upper": 0.9,
+      "count": 0,
+      "avg_prediction": 0.0,
+      "positive_rate": 0.0
+    },
+    {
+      "bin": 9,
+      "lower": 0.9,
+      "upper": 1.0,
+      "count": 0,
+      "avg_prediction": 0.0,
+      "positive_rate": 0.0
+    }
+  ],
+  "checkpoint_output": "D:\\Ali-CCP\\models\\esmm_dcnv2_stage05_1m_w5.pt"
+}

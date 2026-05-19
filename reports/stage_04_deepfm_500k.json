@@ -1,0 +1,23 @@
+{
+  "model": "deepfm",
+  "feature_source": "joined",
+  "split": "train",
+  "rows": 799742,
+  "epochs": 2,
+  "hash_size": 1048576,
+  "embedding_dim": 16,
+  "avg_loss": 0.20254949035128436,
+  "device": "cuda",
+  "ctr_loss_weight": 1.0,
+  "ctcvr_loss_weight": 1.0,
+  "ctcvr_positive_weight": 1.0,
+  "valid_rows": 100129,
+  "valid_clicks": 4513,
+  "valid_conversions": 29,
+  "valid_ctcvr_positives": 27,
+  "valid_click_rate": 0.04507185730407774,
+  "valid_conversion_rate": 0.00028962638196726226,
+  "valid_ctr_auc": 0.6243141281426763,
+  "valid_ctr_log_loss": 0.18695521129803283,
+  "checkpoint_output": "D:\\Ali-CCP\\models\\deepfm_stage04_500k.pt"
+}

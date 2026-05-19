@@ -1,0 +1,109 @@
+{
+  "model": "lr_hashing",
+  "task": "ctr",
+  "feature_source": "joined",
+  "train_path": "D:\\Ali-CCP\\processed\\joined_stage05_1m\\train.csv",
+  "valid_path": "D:\\Ali-CCP\\processed\\joined_stage05_1m\\valid.csv",
+  "train_rows": 799567,
+  "valid_rows": 200433,
+  "train_click_rate": 0.04683660030991774,
+  "valid_click_rate": 0.04641950177864922,
+  "hash_size": 1048576,
+  "learning_rate": 0.05,
+  "l2": 1e-06,
+  "value_clip": 10.0,
+  "normalize_l2": true,
+  "valid_ctr_positives": 9304,
+  "valid_ctr_positive_rate": 0.04641950177864922,
+  "valid_ctr_auc": 0.6061674892298456,
+  "valid_ctr_pr_auc": 0.07244225538948135,
+  "valid_ctr_log_loss": 0.1890582553798975,
+  "valid_ctr_rate_at_0.01": 0.13023952095808383,
+  "valid_ctr_lift_at_0.01": 2.8057069974410593,
+  "valid_ctr_rate_at_0.05": 0.09729567907394472,
+  "valid_ctr_lift_at_0.05": 2.0960086891474594,
+  "valid_ctr_rate_at_0.1": 0.08581549668213341,
+  "valid_ctr_lift_at_0.1": 1.8486949104138055,
+  "valid_ctr_calibration_bins": [
+    {
+      "bin": 0,
+      "lower": 0.0,
+      "upper": 0.1,
+      "count": 200372,
+      "avg_prediction": 0.029993272547284903,
+      "positive_rate": 0.04632383766194877
+    },
+    {
+      "bin": 1,
+      "lower": 0.1,
+      "upper": 0.2,
+      "count": 61,
+      "avg_prediction": 0.11307029852835178,
+      "positive_rate": 0.36065573770491804
+    },
+    {
+      "bin": 2,
+      "lower": 0.2,
+      "upper": 0.3,
+      "count": 0,
+      "avg_prediction": 0.0,
+      "positive_rate": 0.0
+    },
+    {
+      "bin": 3,
+      "lower": 0.3,
+      "upper": 0.4,
+      "count": 0,
+      "avg_prediction": 0.0,
+      "positive_rate": 0.0
+    },
+    {
+      "bin": 4,
+      "lower": 0.4,
+      "upper": 0.5,
+      "count": 0,
+      "avg_prediction": 0.0,
+      "positive_rate": 0.0
+    },
+    {
+      "bin": 5,
+      "lower": 0.5,
+      "upper": 0.6,
+      "count": 0,
+      "avg_prediction": 0.0,
+      "positive_rate": 0.0
+    },
+    {
+      "bin": 6,
+      "lower": 0.6,
+      "upper": 0.7,
+      "count": 0,
+      "avg_prediction": 0.0,
+      "positive_rate": 0.0
+    },
+    {
+      "bin": 7,
+      "lower": 0.7,
+      "upper": 0.8,
+      "count": 0,
+      "avg_prediction": 0.0,
+      "positive_rate": 0.0
+    },
+    {
+      "bin": 8,
+      "lower": 0.8,
+      "upper": 0.9,
+      "count": 0,
+      "avg_prediction": 0.0,
+      "positive_rate": 0.0
+    },
+    {
+      "bin": 9,
+      "lower": 0.9,
+      "upper": 1.0,
+      "count": 0,
+      "avg_prediction": 0.0,
+      "positive_rate": 0.0
+    }
+  ]
+}

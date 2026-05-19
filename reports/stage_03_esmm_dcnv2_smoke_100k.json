@@ -1,0 +1,16 @@
+{
+  "model": "esmm_dcnv2",
+  "feature_source": "joined",
+  "split": "train",
+  "rows": 79878,
+  "epochs": 1,
+  "hash_size": 1048576,
+  "embedding_dim": 16,
+  "avg_loss": 0.3060712839979677,
+  "device": "cuda",
+  "valid_rows": 20122,
+  "valid_click_rate": 0.04199383759069675,
+  "valid_auc": 0.5694825332209061,
+  "valid_log_loss": 0.17749211510166654,
+  "checkpoint_output": "D:\\Ali-CCP\\models\\esmm_dcnv2_stage03_smoke_100k.pt"
+}

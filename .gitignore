@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Raw Ali-CCP data
+sample_train/
+sample_test/
+
+# Generated datasets and large artifacts
+processed/
+models/
+
+# Large prediction exports and generated analysis CSVs
+reports/predictions_*.csv
+reports/analysis_*/
+
+# Keep lightweight reports and metrics JSON files
+!reports/*.md
+!reports/*.json
+
